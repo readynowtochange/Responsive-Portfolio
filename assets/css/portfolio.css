@@ -1,0 +1,127 @@
+body {
+    
+    margin: 0px;
+    padding: 0px;
+
+    border-top-width: 0.5px;
+    border-top-color: #777777;
+    border-top-style: solid;
+
+}
+
+div.Header { 
+    background-color: #ffffff;
+    border-top-color: 1px #777777;
+    display: inline;
+   
+
+}
+
+h2.first {
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 180px;
+    float: left;
+    clear: all;
+    margin-left: 10%;
+    margin-right: 25%;
+    padding: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+}
+#nav {
+    
+    padding-top: 20px;
+    padding-right: 25px; 
+    vertical-align: baseline;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align:right;
+    color: #777777;
+    height: 80px;
+
+}
+
+li {
+    display: inline;
+    padding: 5px;
+}
+
+div.Content {
+    overflow: hidden;
+    height: 100%;
+    background-color: #f8f2ec;
+    width: 100%;
+}
+
+
+h1 {
+    margin-left: 10px;
+}
+
+
+.Article {
+    height: 75%;
+    width: 75%;
+    border-color: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    color: #777777;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15%;
+    position: relative;
+    background-color: #ffffff;
+    top: 50px;
+  
+}
+
+  
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.img {
+    float: left;
+    clear: all;
+    margin-right: 10px;
+}
+p {
+    margin-right: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+    
+}
+
+div.footer {
+    background-color: #666666;
+    text-align: center;
+    display: center;
+    color: #777777;
+    height: 100px;
+}
+#copywright {
+    padding: 40px;
+}
+
+
+@media only screen and (max-width: 980px) {
+    body {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        width: 100%;
+    }
+}
