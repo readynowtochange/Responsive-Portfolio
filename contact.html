@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Basic Portfolio</title>
+    <title>Responsive-Portfolio</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/responsive-portfolio.css" rel="stylesheet"><!--fix this pathway for contact.css-->
 <style>
 
 /*make header static to only 640px.  how?? size*/
 .Header {
    position: fixed;
    left: 0;
-   bottom: 0;
+   top: 0;
    width: 100%;
 }
 
@@ -28,3 +29,51 @@
 </style>
 </head>
 </head>
+<body>
+        <div class="Header">
+                <h2 class="first">Denise Lorenz</h2>
+                <nav id="nav"> 
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li> <a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <hr>
+            <div class="Content">
+                    <article class="Article">
+                       <h1>Contact</h1><hr>
+        
+                       
+                       <div>
+                            <form action="/action_page.php">
+                            <p>
+                                
+                              <label for="fname"> Name</label><br>
+                              <input class="name" type="text" id="name" name="name" placeholder="Your name..">
+                            <br><br>
+                              <label for="email">Email</label><br>
+                              <input class="email" type="text" id="email" name="email" placeholder="Your email..">
+                              <br><br>
+                              <label for=message>Message</label><br>
+                              <input class="message" type="text" id="message" name="message" placeholder="Message..">
+                            </p>
+                        
+                        </div>
+                        <div>
+                        <input  type="submit" value="Submit" id="submitbutton" class="hover">
+                        </form>
+                          </div>
+                          
+                    </article>
+            </div>
+            
+            <div class="footer">
+                
+                <footer >
+                    <p id="copywright"> &copy; Copyright 2018</p>
+                </footer>
+            </div>
+</body>
+</html>

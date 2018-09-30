@@ -73,7 +73,7 @@ h1 {
     margin-bottom: 15%;
     position: relative;
     background-color: #ffffff;
-    top: 50px;
+    top: 100px;
   
 }
 
@@ -94,7 +94,10 @@ p {
     margin-left: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     
-    
+}
+.message {
+    width: 100%;
+    height: 150px;
 }
 
 div.footer {
@@ -102,16 +105,13 @@ div.footer {
     text-align: center;
     display: center;
     color: #777777;
-    height: 100px;
+    height: 50px;
 }
 #copywright {
-    padding: 40px;
+    padding: 20px;
 }
 
-.message {
-    width: 100%;
-    height: 150px;
-}
+
 
 .name, .email {
     width: 100%;
